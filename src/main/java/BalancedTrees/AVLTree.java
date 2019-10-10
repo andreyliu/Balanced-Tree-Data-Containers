@@ -141,7 +141,6 @@ public class AVLTree<K extends Comparable<? super K>, V> extends BST<K, V> {
             return;
         }
         root = delete(root, k);
-//        assert(check().equals("pass"));
     }
 
     private Node<K, V> delete(Node<K, V> h, K k) {
@@ -152,10 +151,22 @@ public class AVLTree<K extends Comparable<? super K>, V> extends BST<K, V> {
             h.right = delete(h.right, k);
         } else {
             if (h.left != null && h.right != null) {
-                INode<K, V> succ = min(h.right);
-                h.key = succ.key;
-                h.val = succ.val;
-                h.right = deleteMin(h.right);
+                // we look for substitute node from taller subtree
+                if (balanceFactor(h) < 0) {
+                    Node<K, V> succ = (Node<K, V>) min(h.right);
+                    succ.right = deleteMin(h.right);
+                    succ.left = h.left;
+                    h = succ;
+                } else {
+                    Node<K, V> pred = (Node<K, V>) max(h.left);
+                    pred.left = deleteMax(h.left);
+                    pred.right = h.right;
+                    h = pred;
+                }
+                h.size = 1 + size(h.left) + size(h.right);
+                h.height = 1 + Math.max(height(h.left), height(h.right));
+                return h;
+
             } else {
                 return h.left != null ? h.left : h.right;
             }

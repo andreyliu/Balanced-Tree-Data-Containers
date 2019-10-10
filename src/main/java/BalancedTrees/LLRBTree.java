@@ -4,6 +4,11 @@ import java.util.ArrayDeque;
 import java.util.Objects;
 import java.util.Queue;
 
+/**
+ * Full implementation of a Left-leaning Red Black BST.
+ * @param <K> key
+ * @param <V> value
+ */
 public class LLRBTree<K extends Comparable<? super K>, V> extends BST<K, V> {
 
     private static final boolean RED = true;
