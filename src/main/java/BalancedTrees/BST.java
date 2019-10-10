@@ -26,6 +26,11 @@ public abstract class BST<K extends Comparable<? super K>, V> implements Ordered
 
         abstract INode<K, V> getLeft();
         abstract INode<K, V> getRight();
+
+        @Override
+        public String toString() {
+            return String.format("{%s: %s | size: %s}", key, val, size);
+        }
     }
     int size(INode<K, V> h) {
         return h == null ? 0 : h.size;

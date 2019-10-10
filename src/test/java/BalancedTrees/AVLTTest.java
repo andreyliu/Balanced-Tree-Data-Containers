@@ -7,19 +7,11 @@ import edu.princeton.cs.algs4.StdRandom;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.*;
-
-import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
-public class LLRBTTest {
+public class AVLTTest {
     private int numNodes;
-    private OrderedMap<String, Integer> st;
-
-    private ByteArrayOutputStream os;
-    private PrintStream ps;
-
     private TinyST<BST<String, Integer>> test;
 
 
@@ -27,25 +19,13 @@ public class LLRBTTest {
     @Before
     @SuppressWarnings("unchecked")
     public void initialize() {
-        st = new LLRBTree<>();
-        TinyST.buildTinyST(st);
-        os = new ByteArrayOutputStream();
-        ps = new PrintStream(os);
         numNodes = 1000;
-        test = new TinyST(LLRBTree.class);
+        test = new TinyST<>(AVLTree.class);
     }
     @Test
     public void testInsert1() {
 
-        ps.println("size = " + st.size());
-        ps.println("min  = " + st.min());
-        ps.println("max  = " + st.max());
-
-        String add =
-                "size = 10\n" +
-                        "min  = A\n" +
-                        "max  = X\n";
-        assertThat(os.toString(), equalTo(add));
+        test.testInsert();
     }
 
     @Test
@@ -71,7 +51,7 @@ public class LLRBTTest {
     }
 
     @Test public void testInsert2() {
-        LLRBTree<Integer, Integer> st2 = new LLRBTree<>();
+        BST<Integer, Integer> st2 = new AVLTree<>();
         for (int i = 0; i < numNodes; i++) {
             st2.put(i, i);
             assertThat(st2.check(), is("pass"));
@@ -81,13 +61,13 @@ public class LLRBTTest {
 
     @Test public void testDelete2() {
         // delete keys in random order
-        LLRBTree<Integer, Integer> st2 = new LLRBTree<>();
+        BST<Integer, Integer> st2 = new AVLTree<>();
 
         for (int i = 0; i < numNodes; i++) {
             st2.put(i, i);
         }
 
-        final int seedNum = 0;
+        final int seedNum = 2;
         StdRandom.setSeed(seedNum);
         while (st2.size() > 0) {
             int i = StdRandom.uniform(numNodes);

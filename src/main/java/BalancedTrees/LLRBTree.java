@@ -10,7 +10,7 @@ public class LLRBTree<K extends Comparable<? super K>, V> extends BST<K, V> {
     private static final boolean BLACK = false;
     private Node<K, V> root;
 
-    static class Node<K extends Comparable<? super K>, V> extends INode<K, V> {
+    private static class Node<K extends Comparable<? super K>, V> extends INode<K, V> {
         boolean color = RED;
         Node<K, V> left;
         Node<K, V> right;
@@ -184,7 +184,7 @@ public class LLRBTree<K extends Comparable<? super K>, V> extends BST<K, V> {
     }
 
     private Node<K, V> deleteMin(Node<K, V> h) {
-        if (h.left == null) return null;
+        if (h.left == null) return h.right;
         if (!red(h.left) && !red(h.left.left)) {
             h = groupLeftFour(h);
         }
@@ -215,7 +215,7 @@ public class LLRBTree<K extends Comparable<? super K>, V> extends BST<K, V> {
 
     private Node<K, V> deleteMax(Node<K, V> h) {
         if (red(h.left)) h = rotateRight(h);
-        if (h.right == null) return null;
+        if (h.right == null) return h.left;
         if (!red(h.right) && !red(h.right.left)) {
             h = groupRightFour(h);
         }
