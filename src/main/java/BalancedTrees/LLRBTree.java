@@ -171,10 +171,11 @@ public class LLRBTree<K extends Comparable<? super K>, V> extends BST<K, V> {
             if (k.compareTo(h.key) > 0) {
                 h.right = delete(h.right, k);
             } else {
-                INode<K, V> succ = min(h.right);
-                h.key = succ.key;
-                h.val = succ.val;
-                h.right = deleteMin(h.right);
+                Node<K, V> succ = (Node<K, V>) min(h.right);
+                succ.right = deleteMin(h.right);
+                succ.left = h.left;
+                succ.color = h.color;
+                h = succ;
             }
         }
         return balance(h);
