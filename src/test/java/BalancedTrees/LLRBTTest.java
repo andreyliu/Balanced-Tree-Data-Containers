@@ -4,6 +4,7 @@
 package BalancedTrees;
 
 import edu.princeton.cs.algs4.StdRandom;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.io.*;
@@ -14,12 +15,11 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 
 public class LLRBTTest {
-    private int numNodes = 1000;
-    private OrderedMap<String, Integer> st = new LLRBTree<>();
+    private int numNodes;
+    private OrderedMap<String, Integer> st;
 
-    {
-        buildTree(st);
-    }
+    private ByteArrayOutputStream os;
+    private PrintStream ps;
 
     private static void buildTree(OrderedMap<String, Integer> st) {
         try (Scanner sc = new Scanner(new FileReader("src/test/resources/tinyST.txt"))) {
@@ -32,9 +32,18 @@ public class LLRBTTest {
         }
     }
 
-    @Test public void testInsert1() {
-        ByteArrayOutputStream os = new ByteArrayOutputStream();
-        PrintStream ps = new PrintStream(os);
+    @Before
+    public void initialize() {
+        st = new LLRBTree<>();
+        buildTree(st);
+        os = new ByteArrayOutputStream();
+        ps = new PrintStream(os);
+        numNodes = 1000;
+    }
+
+    @Test public void testInsert1(OrderedMap<String, Integer> st, ByteArrayOutputStream os, PrintStream ps) {
+//        ByteArrayOutputStream os = new ByteArrayOutputStream();
+//        PrintStream ps = new PrintStream(os);
         ps.println("size = " + st.size());
         ps.println("min  = " + st.min());
         ps.println("max  = " + st.max());
@@ -47,9 +56,7 @@ public class LLRBTTest {
     }
 
 
-    @Test public void testKeys() {
-        ByteArrayOutputStream os = new ByteArrayOutputStream();
-        PrintStream ps = new PrintStream(os);
+    @Test public void testKeys(OrderedMap<String, Integer> st, ByteArrayOutputStream os, PrintStream ps) {
         for (String s : st.keys())
             ps.println(s + " " + st.get(s));
 
@@ -68,9 +75,6 @@ public class LLRBTTest {
     }
 
     @Test public void testSelect() {
-
-        ByteArrayOutputStream os = new ByteArrayOutputStream();
-        PrintStream ps = new PrintStream(os);
         for (int i = 0; i < st.size(); i++)
             ps.println(i + " " + st.select(i));
 
@@ -90,8 +94,6 @@ public class LLRBTTest {
     }
 
     @Test public void testFloorCeil() {
-        ByteArrayOutputStream os = new ByteArrayOutputStream();
-        PrintStream ps = new PrintStream(os);
         ps.println("key rank floor ceil");
         ps.println("-------------------");
         for (char i = 'A'; i <= 'Z'; i++) {
@@ -133,8 +135,6 @@ public class LLRBTTest {
     }
 
     @Test public void testRangeSearch() {
-        ByteArrayOutputStream os = new ByteArrayOutputStream();
-        PrintStream ps = new PrintStream(os);
         String[] from = { "A", "Z", "X", "0", "B", "C" };
         String[] to   = { "Z", "A", "X", "Z", "G", "L" };
         for (int i = 0; i < from.length; i++) {
@@ -156,8 +156,6 @@ public class LLRBTTest {
     }
 
     @Test public void testDelete1() {
-        ByteArrayOutputStream os = new ByteArrayOutputStream();
-        PrintStream ps = new PrintStream(os);
         OrderedMap<String, Integer> tree = new LLRBTree<>();
         buildTree(tree);
         for (int i = 0; i < tree.size() / 2; i++) {

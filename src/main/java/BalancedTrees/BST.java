@@ -131,5 +131,49 @@ public abstract class BST<K extends Comparable<? super K>, V> implements Ordered
         return rank(to) - rank(from);
     }
 
+    abstract void delete();
+
     abstract String check();
+
+    abstract boolean isBalanced();
+
+    boolean isRankConsistent() {
+
+        for (int i = 0; i < size(); i++) {
+            if (i != rank(select(i))) {
+                return false;
+            }
+        }
+
+        for (K key : this.keys()) {
+            if (key.compareTo(select(rank(key))) != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    boolean isBST(INode<K, V> h) {
+        return isBST(h, null, null);
+    }
+
+    boolean isBST(INode<K, V> h, K min, K max) {
+        if (h == null) return true;
+        if (min != null && min.compareTo(h.key) >= 0) {
+            return false;
+        }
+        if (max != null && max.compareTo(h.key) <= 0) {
+            return false;
+        }
+        return isBST(h.getLeft(), min, h.key) && isBST(h.getRight(), h.key, max);
+    }
+
+    boolean isSizeConsistent(INode<K, V> h) {
+        if (h == null) return true;
+        int expected = 1 + size(h.getLeft()) + size(h.getRight());
+        if (h.size != expected) {
+            return false;
+        }
+        return isSizeConsistent(h.getLeft()) && isSizeConsistent(h.getRight());
+    }
 }

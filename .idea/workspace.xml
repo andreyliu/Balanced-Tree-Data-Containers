@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d29d212-f0c3-4c6b-9bb0-5413f8f31dff" name="Default Changelist" comment="" />
+    <list default="true" id="2d29d212-f0c3-4c6b-9bb0-5413f8f31dff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BalancedTrees/BSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BalancedTrees/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BalancedTrees/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BalancedTrees/LLRBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BalancedTrees/LLRBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BalancedTrees/LLRBTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BalancedTrees/LLRBTTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -28,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BalancedTrees/LLRBTTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="428">
+              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
               <folding>
                 <element signature="e#0#355#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -39,24 +44,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BalancedTrees/BSTTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/LLRBTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="158">
+              <caret line="301" selection-start-line="301" selection-end-line="313" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#556#557#0" expanded="true" />
                 <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
                 <element signature="e#6036#6037#0" expanded="true" />
                 <element signature="e#6071#6072#0" expanded="true" />
                 <element signature="e#10041#10042#0" expanded="true" />
                 <element signature="e#10086#10087#0" expanded="true" />
                 <element signature="e#10406#10407#0" expanded="true" />
                 <element signature="e#10439#10440#0" expanded="true" />
-                <element signature="e#11044#11045#0" expanded="true" />
-                <element signature="e#11090#11091#0" expanded="true" />
-                <element signature="e#11486#11487#0" expanded="true" />
-                <element signature="e#11531#11532#0" expanded="true" />
+                <element signature="e#8690#8691#0" expanded="true" />
+                <element signature="e#8736#8737#0" expanded="true" />
+                <element signature="e#9161#9162#0" expanded="true" />
+                <element signature="e#9206#9207#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,14 +83,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="113" column="41" lean-forward="true" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+            <state relative-caret-position="322">
+              <caret line="133" column="27" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#666#667#0" expanded="true" />
                 <element signature="e#715#716#0" expanded="true" />
                 <element signature="e#906#907#0" expanded="true" />
                 <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#3801#3802#0" expanded="true" />
+                <element signature="e#3824#3825#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,33 +101,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="223" column="20" lean-forward="true" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="20" />
+            <state relative-caret-position="310">
+              <caret line="281" column="23" lean-forward="true" selection-start-line="281" selection-start-column="23" selection-end-line="281" selection-end-column="23" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
                 <element signature="e#537#538#0" expanded="true" />
                 <element signature="e#571#572#0" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
                 <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
                 <element signature="e#698#699#0" expanded="true" />
                 <element signature="e#731#732#0" expanded="true" />
                 <element signature="e#769#770#0" expanded="true" />
                 <element signature="e#814#815#0" expanded="true" />
                 <element signature="e#860#861#0" expanded="true" />
                 <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
                 <element signature="e#1336#1337#0" expanded="true" />
                 <element signature="e#1373#1374#0" expanded="true" />
                 <element signature="e#1422#1423#0" expanded="true" />
                 <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#2724#2725#0" expanded="true" />
-                <element signature="e#2812#2813#0" expanded="true" />
-                <element signature="e#4814#4815#0" expanded="true" />
-                <element signature="e#5332#5333#0" expanded="true" />
-                <element signature="e#5738#5739#0" expanded="true" />
-                <element signature="e#5809#5810#0" expanded="true" />
-                <element signature="e#5875#5876#0" expanded="true" />
-                <element signature="e#5949#5950#0" expanded="true" />
-                <element signature="e#6033#6034#0" expanded="true" />
-                <element signature="e#6108#6109#0" expanded="true" />
+                <element signature="e#2558#2559#0" expanded="true" />
+                <element signature="e#2646#2647#0" expanded="true" />
+                <element signature="e#4649#4650#0" expanded="true" />
+                <element signature="e#6350#6351#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/OrderedMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -158,21 +181,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="309" column="61" selection-start-line="309" selection-start-column="61" selection-end-line="309" selection-end-column="61" />
-              <folding>
-                <element signature="e#22372#22373#0" expanded="true" />
-                <element signature="e#22454#22455#0" expanded="true" />
-                <element signature="e#22850#22851#0" expanded="true" />
-                <element signature="e#22921#22922#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/Closeable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -201,10 +209,14 @@
       <find>stdOut</find>
       <find>pipeOut</find>
       <find>ps.toString</find>
-      <find>StdOut</find>
+      <find>(Node</find>
       <find>.left</find>
       <find>.right</find>
+      <find>StdOut</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -213,10 +225,10 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/BalancedTrees/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/OrderedMap.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BalancedTrees/LLRBTTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/AVLTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/BST.java" />
         <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/LLRBTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BalancedTrees/LLRBTTest.java" />
       </list>
     </option>
   </component>
@@ -224,6 +236,7 @@
     <option name="width" value="840" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -296,6 +309,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -429,26 +443,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570647609403</updated>
-      <workItem from="1570647610822" duration="20489000" />
+      <workItem from="1570647610822" duration="23820000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LLRBTTest_testInsert2 - 2019.10.10 at 01h 54m 41s.xml">
-      <configuration name="LLRBTTest.testInsert2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LLRBTTest_testDelete2 - 2019.10.10 at 01h 54m 47s.xml">
-      <configuration name="LLRBTTest.testDelete2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LLRBTTest - 2019.10.10 at 01h 55m 57s.xml">
-      <configuration name="LLRBTTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LLRBTTest - 2019.10.10 at 01h 56m 21s.xml">
-      <configuration name="LLRBTTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LLRBTTest - 2019.10.10 at 02h 12m 51s.xml">
-      <configuration name="LLRBTTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LLRBTTest - 2019.10.10 at 09h 58m 39s.xml">
       <configuration name="LLRBTTest" configurationId="JUnit" />
     </history-entry>
@@ -464,9 +463,24 @@
     <history-entry file="LLRBTTest_testInsert1 - 2019.10.10 at 11h 22m 35s.xml">
       <configuration name="LLRBTTest.testInsert1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LLRBTTest_testInsert1 - 2019.10.10 at 11h 29m 51s.xml">
+      <configuration name="LLRBTTest.testInsert1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 11h 29m 56s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 14h 50m 07s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 15h 01m 35s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 15h 03m 29s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20489000" />
+    <option name="totallyTimeSpent" value="23820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -480,17 +494,17 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" show_stripe_button="false" weight="0.32985386" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32985386" />
       <window_info anchor="bottom" id="CheckStyle" order="2" show_stripe_button="false" weight="0.32985386" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32985386" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.32985386" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.32985386" />
+      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.32985386" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -717,48 +731,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/OrderedMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/LLRBTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="301" selection-start-line="301" selection-end-line="313" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#6036#6037#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
+            <element signature="e#10041#10042#0" expanded="true" />
+            <element signature="e#10086#10087#0" expanded="true" />
+            <element signature="e#10406#10407#0" expanded="true" />
+            <element signature="e#10439#10440#0" expanded="true" />
+            <element signature="e#8690#8691#0" expanded="true" />
+            <element signature="e#8736#8737#0" expanded="true" />
+            <element signature="e#9161#9162#0" expanded="true" />
+            <element signature="e#9206#9207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="133" column="27" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#3801#3802#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="223" column="20" lean-forward="true" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="20" />
+        <state relative-caret-position="310">
+          <caret line="281" column="23" lean-forward="true" selection-start-line="281" selection-start-column="23" selection-end-line="281" selection-end-column="23" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
             <element signature="e#537#538#0" expanded="true" />
             <element signature="e#571#572#0" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
             <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
             <element signature="e#731#732#0" expanded="true" />
             <element signature="e#769#770#0" expanded="true" />
             <element signature="e#814#815#0" expanded="true" />
             <element signature="e#860#861#0" expanded="true" />
             <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
             <element signature="e#1336#1337#0" expanded="true" />
             <element signature="e#1373#1374#0" expanded="true" />
             <element signature="e#1422#1423#0" expanded="true" />
             <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#4814#4815#0" expanded="true" />
-            <element signature="e#5332#5333#0" expanded="true" />
-            <element signature="e#5738#5739#0" expanded="true" />
-            <element signature="e#5809#5810#0" expanded="true" />
-            <element signature="e#5875#5876#0" expanded="true" />
-            <element signature="e#5949#5950#0" expanded="true" />
-            <element signature="e#6033#6034#0" expanded="true" />
-            <element signature="e#6108#6109#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="e#2646#2647#0" expanded="true" />
+            <element signature="e#4649#4650#0" expanded="true" />
+            <element signature="e#6350#6351#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BalancedTrees/LLRBTTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="428">
+          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
           <folding>
             <element signature="e#0#355#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -766,39 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/BST.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BalancedTrees/BSTTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="113" column="41" lean-forward="true" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/LLRBTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#6036#6037#0" expanded="true" />
-            <element signature="e#6071#6072#0" expanded="true" />
-            <element signature="e#10041#10042#0" expanded="true" />
-            <element signature="e#10086#10087#0" expanded="true" />
-            <element signature="e#10406#10407#0" expanded="true" />
-            <element signature="e#10439#10440#0" expanded="true" />
-            <element signature="e#11044#11045#0" expanded="true" />
-            <element signature="e#11090#11091#0" expanded="true" />
-            <element signature="e#11486#11487#0" expanded="true" />
-            <element signature="e#11531#11532#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>

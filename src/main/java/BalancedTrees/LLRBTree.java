@@ -299,6 +299,20 @@ public class LLRBTree<K extends Comparable<? super K>, V> extends BST<K, V> {
         return q;
     }
 
+    @Override
+    void delete() {
+        delete(root);
+        root = null;
+    }
+
+    private void delete(Node<K, V> h) {
+        if (h == null) return;
+        delete(h.left);
+        delete(h.right);
+        h.left = null;
+        h.right = null;
+    }
+
     String check() {
         StringBuilder sb = new StringBuilder();
         if (!isBST())            sb.append("Not in symmetric order\n");
@@ -309,11 +323,12 @@ public class LLRBTree<K extends Comparable<? super K>, V> extends BST<K, V> {
         return sb.length() == 0 ? "pass" : sb.toString();
     }
 
-    private boolean isBalanced() {
+    @Override
+    boolean isBalanced() {
         return isBalanced(root) != -1;
     }
 
-    private int isBalanced(Node<K, V> h) {
+    int isBalanced(Node<K, V> h) {
         if (h == null) return 1;
         int l = isBalanced(h.left);
         int r = isBalanced(h.right);
@@ -334,46 +349,11 @@ public class LLRBTree<K extends Comparable<? super K>, V> extends BST<K, V> {
         return is23(h.left) && is23(h.right);
     }
 
-    private boolean isRankConsistent() {
-
-        for (int i = 0; i < size(); i++) {
-            if (i != rank(select(i))) {
-                return false;
-            }
-        }
-
-        for (K key : this.keys()) {
-            if (key.compareTo(select(rank(key))) != 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-
     private boolean isBST() {
         return isBST(root, null, null);
-    }
-    private boolean isBST(Node<K, V> h, K min, K max) {
-        if (h == null) return true;
-        if (min != null && min.compareTo(h.key) >= 0) {
-            return false;
-        }
-        if (max != null && max.compareTo(h.key) <= 0) {
-            return false;
-        }
-        return isBST(h.left, min, h.key) && isBST(h.right, h.key, max);
     }
 
     private boolean isSizeConsistent() {
         return isSizeConsistent(root);
-    }
-
-    private boolean isSizeConsistent(Node<K, V> h) {
-        if (h == null) return true;
-        int expected = 1 + size(h.left) + size(h.right);
-        if (h.size != expected) {
-            return false;
-        }
-        return isSizeConsistent(h.left) && isSizeConsistent(h.right);
     }
 }
