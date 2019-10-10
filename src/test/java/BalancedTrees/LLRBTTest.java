@@ -3,11 +3,11 @@
  */
 package BalancedTrees;
 
-import edu.princeton.cs.algs4.StdRandom;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.*;
+import java.util.Random;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -88,9 +88,9 @@ public class LLRBTTest {
         }
 
         final int seedNum = 0;
-        StdRandom.setSeed(seedNum);
+        Random gen = new Random(seedNum);
         while (st2.size() > 0) {
-            int i = StdRandom.uniform(numNodes);
+            int i = gen.nextInt(numNodes);
             if (st2.contains(i)) {
                 st2.delete(i);
                 assertThat(st2.check(), is("pass"));
