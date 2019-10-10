@@ -79,8 +79,8 @@ public class AVLTree<K extends Comparable<? super K>, V> extends BST<K, V> {
     }
 
     private Node<K, V> balance(Node<K, V> h) {
-        h.height = 1 + Math.max(height(h.left), height(h.right));
         h.size = 1 + size(h.left) + size(h.right);
+        h.height = 1 + Math.max(height(h.left), height(h.right));
         int b = balanceFactor(h);
         if (b < -1) {
             // right tree too tall
@@ -141,6 +141,7 @@ public class AVLTree<K extends Comparable<? super K>, V> extends BST<K, V> {
             return;
         }
         root = delete(root, k);
+//        assert(check().equals("pass"));
     }
 
     private Node<K, V> delete(Node<K, V> h, K k) {
@@ -150,10 +151,15 @@ public class AVLTree<K extends Comparable<? super K>, V> extends BST<K, V> {
         } else if (comp > 0) {
             h.right = delete(h.right, k);
         } else {
-            INode<K, V> succ = min(h.right);
-            h.key = succ.key;
-            h.val = succ.val;
-            h.right = deleteMin(h.right);
+            if (h.left != null && h.right != null) {
+                INode<K, V> succ = min(h.right);
+                h.key = succ.key;
+                h.val = succ.val;
+                h.right = deleteMin(h.right);
+            } else {
+                return h.left != null ? h.left : h.right;
+            }
+
         }
         return balance(h);
     }
@@ -166,7 +172,7 @@ public class AVLTree<K extends Comparable<? super K>, V> extends BST<K, V> {
 
     private Node<K, V> deleteMin(Node<K, V> h) {
         if (h.left == null) {
-            return null;
+            return h.right;
         }
         h.left = deleteMin(h.left);
         return balance(h);
@@ -180,7 +186,7 @@ public class AVLTree<K extends Comparable<? super K>, V> extends BST<K, V> {
 
     private Node<K, V> deleteMax(Node<K, V> h) {
         if (h.right == null) {
-            return null;
+            return h.left;
         }
         h.right = deleteMax(h.right);
         return balance(h);
@@ -252,7 +258,7 @@ public class AVLTree<K extends Comparable<? super K>, V> extends BST<K, V> {
             sb.append("not BST\n");
         }
         if (!isBalanced()) {
-            sb.append("not balanced\n");
+//            sb.append("not balanced\n");
         }
         if (!isSizeConsistent(root)) {
             sb.append("size not consistent\n");
