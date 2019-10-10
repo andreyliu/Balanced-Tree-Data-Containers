@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d29d212-f0c3-4c6b-9bb0-5413f8f31dff" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BalancedTrees/LLRBTTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#355#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/LLRBTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#6036#6037#0" expanded="true" />
+                <element signature="e#6071#6072#0" expanded="true" />
+                <element signature="e#10041#10042#0" expanded="true" />
+                <element signature="e#10086#10087#0" expanded="true" />
+                <element signature="e#10406#10407#0" expanded="true" />
+                <element signature="e#10439#10440#0" expanded="true" />
+                <element signature="e#11044#11045#0" expanded="true" />
+                <element signature="e#11090#11091#0" expanded="true" />
+                <element signature="e#11486#11487#0" expanded="true" />
+                <element signature="e#11531#11532#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1635">
+              <caret line="113" column="41" lean-forward="true" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/AVLTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-127">
+              <caret line="223" column="20" lean-forward="true" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="20" />
+              <folding>
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+                <element signature="e#1373#1374#0" expanded="true" />
+                <element signature="e#1422#1423#0" expanded="true" />
+                <element signature="e#1486#1487#0" expanded="true" />
+                <element signature="e#2724#2725#0" expanded="true" />
+                <element signature="e#2812#2813#0" expanded="true" />
+                <element signature="e#4814#4815#0" expanded="true" />
+                <element signature="e#5332#5333#0" expanded="true" />
+                <element signature="e#5738#5739#0" expanded="true" />
+                <element signature="e#5809#5810#0" expanded="true" />
+                <element signature="e#5875#5876#0" expanded="true" />
+                <element signature="e#5949#5950#0" expanded="true" />
+                <element signature="e#6033#6034#0" expanded="true" />
+                <element signature="e#6108#6109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/OrderedMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/PrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="432" column="21" selection-start-line="432" selection-start-column="16" selection-end-line="432" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="921" column="27" selection-start-line="921" selection-start-column="27" selection-end-line="921" selection-end-column="27" />
+              <folding>
+                <element signature="e#35031#35032#0" expanded="true" />
+                <element signature="e#35078#35079#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/ByteArrayOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3396">
+              <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+              <folding>
+                <element signature="e#2222#2223#0" expanded="true" />
+                <element signature="e#2246#2247#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="309" column="61" selection-start-line="309" selection-start-column="61" selection-end-line="309" selection-end-column="61" />
+              <folding>
+                <element signature="e#22372#22373#0" expanded="true" />
+                <element signature="e#22454#22455#0" expanded="true" />
+                <element signature="e#22850#22851#0" expanded="true" />
+                <element signature="e#22921#22922#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/Closeable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.size</find>
+      <find>assert</find>
+      <find>compile</find>
+      <find>private Scanner</find>
+      <find>keys</find>
+      <find>close</find>
+      <find>stdOut</find>
+      <find>pipeOut</find>
+      <find>ps.toString</find>
+      <find>StdOut</find>
+      <find>.left</find>
+      <find>.right</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/App.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/BalancedTrees/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/OrderedMap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BalancedTrees/LLRBTTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/BST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BalancedTrees/LLRBTree.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="840" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BalancedTrees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BalancedTrees" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BalancedTrees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BalancedTrees" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BalancedTrees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BalancedTrees" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BalancedTrees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BalancedTrees" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BalancedTrees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BalancedTrees" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BalancedTrees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BalancedTrees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BalancedTrees" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BalancedTrees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BalancedTrees" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BalancedTrees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BalancedTrees" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BalancedTrees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BalancedTrees" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BalancedTrees" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LLRBTTest">
+    <configuration name="LLRBTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BalancedTrees.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BalancedTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BalancedTrees" />
+      <option name="MAIN_CLASS_NAME" value="BalancedTrees.LLRBTTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLRBTTest.testDelete2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BalancedTrees.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BalancedTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BalancedTrees" />
+      <option name="MAIN_CLASS_NAME" value="BalancedTrees.LLRBTTest" />
+      <option name="METHOD_NAME" value="testDelete2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLRBTTest.testInsert1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BalancedTrees.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BalancedTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BalancedTrees" />
+      <option name="MAIN_CLASS_NAME" value="BalancedTrees.LLRBTTest" />
+      <option name="METHOD_NAME" value="testInsert1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLRBTTest.testInsert2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BalancedTrees.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BalancedTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BalancedTrees" />
+      <option name="MAIN_CLASS_NAME" value="BalancedTrees.LLRBTTest" />
+      <option name="METHOD_NAME" value="testInsert2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLRBTTest.testRangeSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BalancedTrees.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BalancedTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BalancedTrees" />
+      <option name="MAIN_CLASS_NAME" value="BalancedTrees.LLRBTTest" />
+      <option name="METHOD_NAME" value="testRangeSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LLRBTTest" />
+        <item itemvalue="JUnit.LLRBTTest.testInsert1" />
+        <item itemvalue="JUnit.LLRBTTest.testDelete2" />
+        <item itemvalue="JUnit.LLRBTTest.testInsert2" />
+        <item itemvalue="JUnit.LLRBTTest.testRangeSearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d29d212-f0c3-4c6b-9bb0-5413f8f31dff" name="Default Changelist" comment="" />
+      <created>1570647609403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570647609403</updated>
+      <workItem from="1570647610822" duration="20489000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LLRBTTest_testInsert2 - 2019.10.10 at 01h 54m 41s.xml">
+      <configuration name="LLRBTTest.testInsert2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest_testDelete2 - 2019.10.10 at 01h 54m 47s.xml">
+      <configuration name="LLRBTTest.testDelete2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 01h 55m 57s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 01h 56m 21s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 02h 12m 51s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 09h 58m 39s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 10h 01m 26s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest - 2019.10.10 at 11h 20m 45s.xml">
+      <configuration name="LLRBTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest_testInsert1 - 2019.10.10 at 11h 21m 32s.xml">
+      <configuration name="LLRBTTest.testInsert1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LLRBTTest_testInsert1 - 2019.10.10 at 11h 22m 35s.xml">
+      <configuration name="LLRBTTest.testInsert1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20489000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.24969475" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" show_stripe_button="false" weight="0.32985386" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="CheckStyle" order="2" show_stripe_button="false" weight="0.32985386" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32985386" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.32985386" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Remote Host" order="1" />
+      <window_info anchor="right" id="sbt" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="11" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="12" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BalancedTrees$LLRBTTest.ic" NAME="LLRBTTest Coverage Results" MODIFIED="1570686978851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>BalancedTrees.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Dependencies/algs4.jar!/edu/princeton/cs/algs4/StdOut.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/tinyST.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="218" column="24" selection-start-line="218" selection-start-column="24" selection-end-line="218" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/AutoCloseable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1238">
+          <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Readable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="775" column="19" selection-start-line="775" selection-start-column="19" selection-end-line="775" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="277" column="22" selection-start-line="277" selection-start-column="22" selection-end-line="277" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2005">
+          <caret line="187" column="36" lean-forward="true" selection-start-line="187" selection-start-column="36" selection-end-line="187" selection-end-column="36" />
+          <folding>
+            <element signature="e#7098#7099#0" expanded="true" />
+            <element signature="e#7143#7144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/core/IsEqual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#3177#3178#0" expanded="true" />
+            <element signature="e#3223#3224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/CoreMatchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="354" column="45" lean-forward="true" selection-start-line="354" selection-start-column="45" selection-end-line="354" selection-end-column="45" />
+          <folding>
+            <element signature="e#15613#15614#0" expanded="true" />
+            <element signature="e#15675#15676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="309" column="61" selection-start-line="309" selection-start-column="61" selection-end-line="309" selection-end-column="61" />
+          <folding>
+            <element signature="e#22372#22373#0" expanded="true" />
+            <element signature="e#22454#22455#0" expanded="true" />
+            <element signature="e#22850#22851#0" expanded="true" />
+            <element signature="e#22921#22922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/Closeable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="921" column="27" selection-start-line="921" selection-start-column="27" selection-end-line="921" selection-end-column="27" />
+          <folding>
+            <element signature="e#35031#35032#0" expanded="true" />
+            <element signature="e#35078#35079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3396">
+          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+          <folding>
+            <element signature="e#2222#2223#0" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="432" column="21" selection-start-line="432" selection-start-column="16" selection-end-line="432" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/OrderedMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="223" column="20" lean-forward="true" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="20" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2812#2813#0" expanded="true" />
+            <element signature="e#4814#4815#0" expanded="true" />
+            <element signature="e#5332#5333#0" expanded="true" />
+            <element signature="e#5738#5739#0" expanded="true" />
+            <element signature="e#5809#5810#0" expanded="true" />
+            <element signature="e#5875#5876#0" expanded="true" />
+            <element signature="e#5949#5950#0" expanded="true" />
+            <element signature="e#6033#6034#0" expanded="true" />
+            <element signature="e#6108#6109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BalancedTrees/LLRBTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#355#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="113" column="41" lean-forward="true" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BalancedTrees/LLRBTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#6036#6037#0" expanded="true" />
+            <element signature="e#6071#6072#0" expanded="true" />
+            <element signature="e#10041#10042#0" expanded="true" />
+            <element signature="e#10086#10087#0" expanded="true" />
+            <element signature="e#10406#10407#0" expanded="true" />
+            <element signature="e#10439#10440#0" expanded="true" />
+            <element signature="e#11044#11045#0" expanded="true" />
+            <element signature="e#11090#11091#0" expanded="true" />
+            <element signature="e#11486#11487#0" expanded="true" />
+            <element signature="e#11531#11532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|BalancedTrees</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
