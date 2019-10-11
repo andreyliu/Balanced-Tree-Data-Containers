@@ -1,4 +1,5 @@
 ### README 
+[![Build Status](https://travis-ci.org/andreyliu/Balanced-Tree-Data-Containers.svg?branch=master)](https://travis-ci.org/andreyliu/Balanced-Tree-Data-Containers)
 
 My implementation of tree data structures in the form of Java
 generic containers. 
