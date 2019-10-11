@@ -124,8 +124,7 @@ public class LLRBTree<K extends Comparable<? super K>, V> extends BST<K, V> {
 
     @Override
     public void put(K k, V v) {
-        Objects.requireNonNull(k);
-        root = put(root, k, v);
+        root = put(root, Objects.requireNonNull(k), Objects.requireNonNull(v));
         root.color = BLACK;
 
     }

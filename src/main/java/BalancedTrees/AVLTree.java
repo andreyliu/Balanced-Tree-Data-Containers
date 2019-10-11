@@ -61,7 +61,7 @@ public class AVLTree<K extends Comparable<? super K>, V> extends BST<K, V> {
 
     @Override
     public void put(K k, V val) {
-        root = put(root, Objects.requireNonNull(k), val);
+        root = put(root, Objects.requireNonNull(k), Objects.requireNonNull(val));
     }
 
     private Node<K, V> put(Node<K, V> h, K k, V v) {

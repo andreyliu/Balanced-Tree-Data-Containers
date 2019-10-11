@@ -47,6 +47,8 @@ public abstract class BST<K extends Comparable<? super K>, V> implements Ordered
         return h.val;
     }
 
+    abstract int height();
+
     @Override
     public boolean contains(K k) {
         return get(k) != null;
