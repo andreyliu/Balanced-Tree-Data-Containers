@@ -1,4 +1,4 @@
-package BalancedTrees;
+package org.andreyliu.containers.trees.balancedtrees;
 
 /**
  * Ordered map representing a map container of keys to values, where the keys

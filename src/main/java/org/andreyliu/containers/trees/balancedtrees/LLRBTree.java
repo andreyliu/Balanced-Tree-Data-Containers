@@ -1,4 +1,4 @@
-package BalancedTrees;
+package org.andreyliu.containers.trees.balancedtrees;
 
 import java.util.ArrayDeque;
 import java.util.Objects;

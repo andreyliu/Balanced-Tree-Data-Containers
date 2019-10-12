@@ -1,4 +1,4 @@
-package BalancedTrees;
+package org.andreyliu.containers.trees.balancedtrees;
 
 import java.util.Objects;
 import java.util.Queue;
