@@ -3,7 +3,7 @@ package org.andreyliu.containers.trees.others;
 import com.google.common.math.IntMath;
 
 import java.math.RoundingMode;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * Segment tree with lazy propagation.
@@ -14,6 +14,8 @@ public class SegmentTree {
     private final int[] arr;
 
     private final Node[] heap;
+
+    private static final String NULL_STR = "|" + "=".repeat(30) + "|";
 
     private static class Node {
         int sum;
@@ -44,9 +46,14 @@ public class SegmentTree {
         boolean intersects(int from, int to) {
             return Math.max(this.from, from) <= Math.min(this.to, to);
         }
+
+        @Override
+        public String toString() {
+            return String.format("  {[%2s, %2s], sum=%4s, min=%2s}  ", from, to, sum, min);
+        }
     }
 
-    public SegmentTree(Integer[] arr) {
+    public SegmentTree(int[] arr) {
         Objects.requireNonNull(arr);
         int n = arr.length;
         if (n == 0) throw new IllegalArgumentException("cannot build segment tree from empty array");
@@ -55,7 +62,7 @@ public class SegmentTree {
         for (Integer num : arr) {
             this.arr[i++] = num;
         }
-        int size = (int) Math.pow(2, IntMath.log2(n, RoundingMode.CEILING));
+        int size = (int) Math.pow(2, IntMath.log2(n, RoundingMode.CEILING) + 1);
         this.heap = new Node[size];
         buildHeap(1, 0, n - 1);
     }
@@ -117,8 +124,8 @@ public class SegmentTree {
 
         if (h.pendingVal == null) return;
 
-        change(heap[v << 2], h.pendingVal);
-        change(heap[v << 2 | 1], h.pendingVal);
+        change(heap[v << 1], h.pendingVal);
+        change(heap[v << 1 | 1], h.pendingVal);
         arr[h.from] = h.pendingVal;
         h.pendingVal = null;
     }
@@ -145,9 +152,16 @@ public class SegmentTree {
         if (!h.intersects(from, to)) {
             return Integer.MAX_VALUE;
         }
-        if (h.contains(from, to) || h.isContainedIn(from, to)) {
+        if (h.pendingVal != null && h.contains(from, to)) {
+            return h.pendingVal;
+        }
+        if (h.isContainedIn(from, to)) {
             return h.min;
         }
+//        System.out.println("from: " + h.from);
+//        System.out.println("to: " + h.to);
+//        System.out.println("v: " + v);
+
         propagate(v);
         int leftMin = rMinQ(v << 1, from, to);
         int rightMin = rMinQ(v << 1 | 1, from, to);
@@ -182,5 +196,59 @@ public class SegmentTree {
         update(v << 1 | 1, from, to, value);
         h.sum = heap[v << 1].sum + heap[v << 1 | 1].sum;
         h.min = Math.min(heap[v << 1].min, heap[v << 1 | 1].min);
+    }
+
+    @Override
+    public String toString() {
+        List<StringBuilder> levels =  getIndentStrings();
+        int v = 1;
+        Queue<Integer> q = new ArrayDeque<>();
+        q.offer(v);
+        int level = 0;
+        while (!q.isEmpty()) {
+            int n = q.size();
+            for (int i = 0; i < n; i++) {
+                v = q.poll();
+                Node node = heap[v];
+                levels.get(level).append(node != null ? node.toString() : NULL_STR);
+                if (v <= (heap.length - 1 >> 1)) {
+                    q.offer(v << 1);
+                }
+                if (v <= ((heap.length - 2) >> 1)) {
+                    q.offer(v << 1 | 1);
+                }
+            }
+            level++;
+        }
+
+        StringBuilder res = new StringBuilder();
+        for (StringBuilder sb : levels) {
+            res.append(sb.toString());
+            res.append('\n');
+            res.append('\n');
+        }
+
+        return res.toString();
+    }
+
+    private List<StringBuilder> getIndentStrings() {
+        List<StringBuilder> levels = new LinkedList<>();
+        int lSize = heap.length / 2;
+        int prev;
+        int indentNum = 0;
+        while (lSize >= 1) {
+            levels.add(0, generateIndent(indentNum));
+            prev = lSize;
+            indentNum += IntMath.log2(prev, RoundingMode.UNNECESSARY);
+            lSize /= 2;
+        }
+        return levels;
+    }
+
+    private StringBuilder generateIndent(int num) {
+        int spaceNum = 16;
+        StringBuilder sb = new StringBuilder();
+        sb.append(" ".repeat(num * spaceNum));
+        return sb;
     }
 }
