@@ -8,6 +8,7 @@ Currently includes:
 
 * Left-leaning Red Black Tree
 * AVL Tree
+* Segment Tree (Non-generic)
 
 References:
 * *https://algs4.cs.princeton.edu/code/edu/princeton/cs/algs4/AVLTreeST.java.html*
