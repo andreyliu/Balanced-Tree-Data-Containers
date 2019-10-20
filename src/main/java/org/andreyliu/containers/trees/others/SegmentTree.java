@@ -43,6 +43,7 @@ public class SegmentTree {
         boolean isContainedIn(int from, int to) {
             return from <= this.from && to >= this.to;
         }
+
         boolean intersects(int from, int to) {
             return Math.max(this.from, from) <= Math.min(this.to, to);
         }
