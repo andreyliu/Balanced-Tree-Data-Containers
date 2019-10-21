@@ -1,4 +1,4 @@
-package org.andreyliu.containers.trees.others;
+package org.andreyliu.containers.others;
 
 import com.google.common.math.IntMath;
 

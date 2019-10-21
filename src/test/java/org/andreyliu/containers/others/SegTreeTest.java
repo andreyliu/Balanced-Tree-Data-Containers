@@ -1,4 +1,4 @@
-package org.andreyliu.containers.trees.others;
+package org.andreyliu.containers.others;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package org.andreyliu.containers.trees.balancedtrees;
+package org.andreyliu.containers.balancedtrees;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileReader;
