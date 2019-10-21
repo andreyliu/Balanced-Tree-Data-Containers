@@ -1,5 +1,5 @@
 ### README 
-[![Build Status](https://travis-ci.org/andreyliu/Tree-Data-Containers.svg?branch=master)](https://travis-ci.org/andreyliu/Tree-Data-Containers)
+[![Build Status](https://travis-ci.org/andreyliu/Data-Containers.svg?branch=master)](https://travis-ci.org/andreyliu/Data-Containers)
 
 Currently includes:
 
