@@ -29,5 +29,7 @@ public class SegTreeTest {
 
         assertEquals(0, st.rMinQ(2, 4));
         assertEquals(3, st.rsq(1, 4));
+
+        System.out.println(st);
     }
 }

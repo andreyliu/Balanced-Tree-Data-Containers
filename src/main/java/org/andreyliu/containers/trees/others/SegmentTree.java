@@ -235,19 +235,17 @@ public class SegmentTree {
     private List<StringBuilder> getIndentStrings() {
         List<StringBuilder> levels = new LinkedList<>();
         int lSize = heap.length / 2;
-        int prev;
         int indentNum = 0;
         while (lSize >= 1) {
             levels.add(0, generateIndent(indentNum));
-            prev = lSize;
-            indentNum += IntMath.log2(prev, RoundingMode.UNNECESSARY);
+            indentNum += IntMath.log2(lSize, RoundingMode.UNNECESSARY);
             lSize /= 2;
         }
         return levels;
     }
 
     private StringBuilder generateIndent(int num) {
-        int spaceNum = 16;
+        final int spaceNum = 16;
         StringBuilder sb = new StringBuilder();
         sb.append(" ".repeat(num * spaceNum));
         return sb;

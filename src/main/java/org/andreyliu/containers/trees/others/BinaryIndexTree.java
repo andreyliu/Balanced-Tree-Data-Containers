@@ -2,6 +2,13 @@ package org.andreyliu.containers.trees.others;
 
 import java.util.Objects;
 
+/**
+ * This {@code Binary Index Tree} supports range sum query and range update with {@code O(log n)}
+ * time complexity. Note that {@code update} operations only supports adding by an increment but doesn't support
+ * resetting values. For single point reset, user can keep a copy of the original values and calculate the difference
+ * before calling the {@link #add(int, int)} method.
+ * {@link SegmentTree} may be a better option if range update is requires resetting values.
+ */
 public class BinaryIndexTree {
     private final int[] d1;
     private final int[] d2;
