@@ -20,13 +20,14 @@ public class UnionFind<K> implements UF<K> {
         Node r2 = find(index.get(k2));
         if (r1 == r2) return;
         if (r1.rank > r2.rank) {
-            r1.parent = r1;
+            r2.parent = r1;
         } else if (r2.rank > r1.rank) {
             r1.parent = r2;
         } else {
             r2.parent = r1;
             r1.rank++;
         }
+        count--;
     }
 
     private void check(K k) {
@@ -58,6 +59,7 @@ public class UnionFind<K> implements UF<K> {
     public int count() {
         return count;
     }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -73,7 +75,7 @@ public class UnionFind<K> implements UF<K> {
         for (Map.Entry<K, Node> e : index.entrySet()) {
             Node n = e.getValue();
             if (n.parent == n) {
-                components.put(n, new StringBuilder(e.getKey().toString()));
+                components.put(n, new StringBuilder(String.format("%-10s", e.getKey().toString())));
             }
         }
         for (Map.Entry<K, Node> e : index.entrySet()) {
@@ -87,6 +89,7 @@ public class UnionFind<K> implements UF<K> {
             }
         }
         for (StringBuilder s : components.values()) {
+            s.append('\n');
             sb.append(s.toString());
         }
     }

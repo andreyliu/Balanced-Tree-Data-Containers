@@ -1,5 +1,11 @@
 package org.andreyliu.containers.disjointset;
 
+import org.checkerframework.checker.units.qual.K;
+import org.w3c.dom.Node;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class UnionFindStatic implements UF<Integer> {
     private final int[] roots;
     private final int[] ranks;
@@ -42,6 +48,7 @@ public class UnionFindStatic implements UF<Integer> {
             roots[r2] = r1;
             ranks[r1]++;
         }
+        count--;
     }
 
     private int find(int i) {
@@ -71,6 +78,36 @@ public class UnionFindStatic implements UF<Integer> {
     private void checkIndex(int k) {
         if (k < 0 || k >= roots.length) {
             throw new IndexOutOfBoundsException(k);
+        }
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        final String format = "%-10s";
+        String header = String.format(format, "root");
+        sb.append(header);
+        sb.append(", members\n");
+        addContents(sb, format);
+
+        return sb.toString();
+    }
+
+    private void addContents(StringBuilder sb, String fmt) {
+        Map<Integer, StringBuilder> components = new HashMap<>();
+        for (int i = 0; i < roots.length; i++) {
+            if (roots[i] == i) {
+                components.put(i, new StringBuilder(String.format(fmt, String.valueOf(i))));
+            }
+        }
+        for (int i = 0; i < roots.length; i++) {
+            if (roots[i] != i) {
+                components.get(find(i)).append(String.format(", %s", i));
+            }
+        }
+        for (StringBuilder s : components.values()) {
+            s.append('\n');
+            sb.append(s.toString());
         }
     }
 }
